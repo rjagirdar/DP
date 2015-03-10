@@ -1,9 +1,13 @@
+import java.util.PriorityQueue;
+
 
 public class LongestArithmeticProgression {
 
 	public static void main(String[] args) {
 		int arr[] = {1, 7, 10, 13, 14, 19};
 		llap(arr);
+		
+		
 	}
 	
 	public static void llap(int[] arr){
